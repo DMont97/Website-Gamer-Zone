@@ -1,230 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gamer Zone</title>
-    <link rel="shortcut icon" href="./img/game icon.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
-<body style="background-color: #62272d31;">
-    <nav class="navbar navbar-expand-lg px-4" style="background-color: #500d13;">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gamer Zone</title>
+        <link rel="shortcut icon" href="./img/game icon.png" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <body style="background-color: #62272d31;">
+        <nav class="navbar navbar-expand-lg px-4" style="background-color: #500d13;">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/game icon.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                </a>
+                
+                <div class="row">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categoría
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Acción</a></li>
+                            <li><a class="dropdown-item" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Deportivo</a></li>
+                            <li><a class="dropdown-item" href="#">Simulación</a></li>
+                            <li><a class="dropdown-item" href="#">Estrategia</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Por Consola
+                            </a>
+                            <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">XBOX</a></li>
+                            <li><a class="dropdown-item" href="#">PLAY STATION</a></li>
+                            <li><a class="dropdown-item" href="#">NINTENDO</a></li>
+                            <li><a class="dropdown-item" href="#">PC</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="#">Más Vendidos</a>
+                        </li>
+                    </ul>
+                </div>
+                
+
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Título" aria-label="Search">
+                    <button class="btn btn-outline-warning" type="submit">Buscar</button>
+                </form>
+            </div>
+        </nav>
+        <div class="text-center mt-4">
+            <h1 class="fw-bold">Gamer Zone</h1>
+            <h4 class="fw-light">Todo lo que necesitas, en un solo lugar</h2>
+        </div>
+        <hr>
+        
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/banner1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/banner4.png" class="d-block w-100" alt="...">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        
+        <div class="container text-center py-4 mb-3">
+            <h2 class="text-start ps-2 py-4"> Best Sellers</h2>
+            <div class="row justify-content-between g-4 pb-4 mb-4">
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/Halo-Reach.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Halo Reach</h5>
+                            <img src="./img/rate1.png" alt="">
+                            <p class="card-text text-start pt-3">Embarcate en este nuevo título de la saga, con más acción y aventura que nunca.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/GTA.jpg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Grand Theft Auto</h5>
+                            <img src="./img/rate2.png" alt="">
+                            <p class="card-text text-start pt-3">Juega ahora GTA y domina las calles de todo el sur de San Andreas. </p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/bio.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Bioshock</h5>
+                            <img src="./img/rate4.png" alt="">
+                            <p class="card-text text-start pt-3">¿Estas listo para jugar uno de los títulos más aterradores de Irrational Games?</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/mario.jpeg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Mario Odyssey</h5>
+                            <img src="./img/rate3.png" alt="">
+                            <p class="card-text text-start pt-3">Uno de los títulos más aclamados por todos los fans de Nintendo, no te lo pierdas.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/the last.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">The Last Of Us</h5>
+                            <img src="./img/rate3.png" alt="">
+                            <p class="card-text text-start pt-3">Joel y Ellie, dos personas conectadas por la brutalidad del mundo en el que viven.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/zelda.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">The Legend Of Zelda</h5>
+                            <img src="./img/rate2.png" alt="">
+                            <p class="card-text text-start pt-3">Narra la historia del joven guerrero Link, que enfrenta peligros para salvar su hogar.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/farcy.jpg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Farcy</h5>
+                            <img src="./img/rate4.png" alt="">
+                            <p class="card-text text-start pt-3">Salta a la acción y el caos del combate de guerrillas y reúne soldados que te ayuden a luchar.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card" style="width: 17rem;">
+                        <img src="./img/injustice.jfif" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
+                        <div class="card-body">
+                            <h5 class="card-title text-start">Injustice</h5>
+                            <img src="./img/rate2.png" alt="">
+                            <p class="card-text text-start pt-3">Desafía a todos los heroes del universo de DC y coronate como el mejor guerrero del universo.</p>
+                            <a href="#" class="btn btn-primary">Comprar Ahora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="./img/game icon.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            </a>
-            
-            <div class="row">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Categoría
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Acción</a></li>
-                          <li><a class="dropdown-item" href="#">Aventura</a></li>
-                          <li><a class="dropdown-item" href="#">Deportivo</a></li>
-                          <li><a class="dropdown-item" href="#">Simulación</a></li>
-                          <li><a class="dropdown-item" href="#">Estrategia</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Por Consola
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">XBOX</a></li>
-                          <li><a class="dropdown-item" href="#">PLAY STATION</a></li>
-                          <li><a class="dropdown-item" href="#">NINTENDO</a></li>
-                          <li><a class="dropdown-item" href="#">PC</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Más Vendidos</a>
-                    </li>
-                </ul>
+            <div class="row p-5 pb-2 text-white" style="background-color: #500d13;">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h3">Gamer Zone</p>
+                    <img src="./img/game icon.png" alt="Logo" width="40" height="40">
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5 mb-3">¿NECESITAS AYUDA?</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Centro de Ayuda</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Order Status</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Preguntas Frecuentes</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">LEGAL Y PRIVACIDAD</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Política de Privacidad</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Términos y Condiciones</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">CA Transparency</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <p class="h5">NOSOTROS</p>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Encuentra una Tienda</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Inversionistas</a>
+                    </div>
+                    <div class="mb-2">
+                        <a class="text-secondary text-decoration-none" href="">Afiliados</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 pt-4">
+                    <p class="text-white text-center">Copyright - All Rights Reserved 2024</p>
+                </div> 
             </div>
-            
 
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Título" aria-label="Search">
-                <button class="btn btn-outline-warning" type="submit">Buscar</button>
-            </form>
-        </div>
-    </nav>
-    <div class="text-center mt-4">
-        <h1 class="fw-bold">Gamer Zone</h1>
-        <h4 class="fw-light">Todo lo que necesitas, en un solo lugar</h2>
-    </div>
-    <hr>
-    
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./img/banner1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/banner2.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/banner3.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="./img/banner4.png" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-    
-    <div class="container text-center py-4 mb-3">
-        <h2 class="text-start ps-2 py-4"> Best Sellers</h2>
-        <div class="row justify-content-between g-4 pb-4 mb-4">
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/Halo-Reach.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Halo Reach</h5>
-                        <img src="./img/rate1.png" alt="">
-                        <p class="card-text text-start pt-3">Embarcate en este nuevo título de la saga, con más acción y aventura que nunca.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/GTA.jpg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Grand Theft Auto</h5>
-                        <img src="./img/rate2.png" alt="">
-                        <p class="card-text text-start pt-3">Juega ahora GTA y domina las calles de todo el sur de San Andreas. </p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-             </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/bio.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Bioshock</h5>
-                        <img src="./img/rate4.png" alt="">
-                        <p class="card-text text-start pt-3">¿Estas listo para jugar uno de los títulos más aterradores de Irrational Games?</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/mario.jpeg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Mario Odyssey</h5>
-                        <img src="./img/rate3.png" alt="">
-                        <p class="card-text text-start pt-3">Uno de los títulos más aclamados por todos los fans de Nintendo, no te lo pierdas.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/the last.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">The Last Of Us</h5>
-                        <img src="./img/rate3.png" alt="">
-                        <p class="card-text text-start pt-3">Joel y Ellie, dos personas conectadas por la brutalidad del mundo en el que viven.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/zelda.webp" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">The Legend Of Zelda</h5>
-                        <img src="./img/rate2.png" alt="">
-                        <p class="card-text text-start pt-3">Narra la historia del joven guerrero Link, que enfrenta peligros para salvar su hogar.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-             </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/farcy.jpg" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Farcy</h5>
-                        <img src="./img/rate4.png" alt="">
-                        <p class="card-text text-start pt-3">Salta a la acción y el caos del combate de guerrillas y reúne soldados que te ayuden a luchar.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 17rem;">
-                    <img src="./img/injustice.jfif" class="card-img-top" alt="..." style="height: 350px; object-fit: fill;">
-                    <div class="card-body">
-                        <h5 class="card-title text-start">Injustice</h5>
-                        <img src="./img/rate2.png" alt="">
-                        <p class="card-text text-start pt-3">Desafía a todos los heroes del universo de DC y coronate como el mejor guerrero del universo.</p>
-                        <a href="#" class="btn btn-primary">Comprar Ahora</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid">
-        <div class="row p-5 pb-2 text-white" style="background-color: #500d13;">
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h3">Gamer Zone</p>
-                <img src="./img/game icon.png" alt="Logo" width="40" height="40">
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5 mb-3">¿NECESITAS AYUDA?</p>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Centro de Ayuda</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Order Status</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Preguntas Frecuentes</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">LEGAL Y PRIVACIDAD</p>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Política de Privacidad</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Términos y Condiciones</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">CA Transparency</a>
-                </div>
-            </div>
-            <div class="col-xs-12 col-md-6 col-lg-3">
-                <p class="h5">NOSOTROS</p>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Encuentra una Tienda</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Inversionistas</a>
-                </div>
-                <div class="mb-2">
-                    <a class="text-secondary text-decoration-none" href="">Afiliados</a>
-                </div>
-            </div>
-            <div class="col-xs-12 pt-4">
-                <p class="text-white text-center">Copyright - All Rights Reserved 2024</p>
-            </div> 
         </div>
 
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
 </html>
